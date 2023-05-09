@@ -4,4 +4,4 @@ Copy of CRUD
 # Tehnology
 - C#
 - WPF
-- MVVC
+- MVVM
