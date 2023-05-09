@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="View\Trash.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="View\Res\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="View\Trash.png" />
+  </ItemGroup>
+
+</Project>
